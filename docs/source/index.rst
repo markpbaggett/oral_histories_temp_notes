@@ -6,13 +6,11 @@
 Oral Histories Processing and Procedures
 ========================================
 
-
 .. toctree::
    :maxdepth: 2
    :glob:
 
-   _static/*
-
+   contents/*
 
 Indices and tables
 ==================

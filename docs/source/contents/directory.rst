@@ -207,4 +207,3 @@ stopped during recording.  These will not be kept.
     20190920_Whaley_Seemona-Daniel.mkv
     20190920_Whaley_Seemona-Daniel.mp4
     20190920_Whaley_Seemona_release.pdf
-
