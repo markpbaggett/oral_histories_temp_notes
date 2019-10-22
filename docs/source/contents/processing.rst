@@ -6,17 +6,23 @@ Receiving Files
 Goals
 -----
 
-1. **Keep the files we need**: In this first run, Casey gave us extra files to determine which files we wanted to preserve
+1. **Checksum check the files sent by Casey**: Since Casey sent us Checksums for each file, let's test them versus the
+files we received.
+
+2. **Keep the files we need**: In this first run, Casey gave us extra files to determine which files we wanted to preserve
 and what our workflow should look like going forward.
 
-2. **Get other files to the people that need them**: We won't be preserving all the files here, but we need to get
+3. **Get other files to the people that need them**: We won't be preserving all the files here, but we need to get
 the files others need to them.
 
-3. **Cleanup the drive**:  Casey will reuse this drive, so we need to cleanup the drive as we go.
+4. **Cleanup the drive**:  Casey will reuse this drive, so we need to cleanup the drive as we go.
 
-------------
-What we need
-------------
+5. **Ingest the Object and Restrict all datastreams**: As quickly as possible, we need to get this object into Fedora but
+ensure that all datastreams and the object itself is restricted.
+
+-----------------
+What I think need
+-----------------
 
 Using the `directory structure <../directory.html>`_ documentation as a guide, we need to use Casey's preservation mkv as our OBJ and her
 mp4 as our access copy. According to the `video solution pack documentation <https://wiki.duraspace.org/display/ISLANDORA/Video+Solution+Pack>`_,
@@ -37,8 +43,8 @@ server to process the preservation file.
     20190920_James_Zachary_release.pdf
 
 .. code-block:: rst
-    :name: MP4 datastream
-    :caption: MP4 datastream
+    :name: Temporary Access MP4 datastream
+    :caption: Temporary Access MP4 datastream
     :emphasize-lines: 5
 
     20190920_James_Zachary_bioform.pdf
@@ -47,3 +53,16 @@ server to process the preservation file.
     20190920_James_Zachary.mkv
     20190920_James_Zachary.mp4
     20190920_James_Zachary_release.pdf
+
+It's important to note that the access copy will be replaced before go live with something else altogether.  This processed
+access copy will have branding and other data.  The access copy we will be storing for now will only be used if there is
+a question or someone wants to review something.
+
+We also need metadata for ingestion. The metadata file that Casey has provided for us is incomplete and will grow substantially
+during the "cataloging" phase of the project. For this reason, we can create a simple metadata record with minimal data.
+
+--------
+Workflow
+--------
+
+What will our workflow look like going forward? Document here:
